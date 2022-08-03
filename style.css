@@ -23,13 +23,13 @@ body {
 }
 
 .firstHalf {
-    width: 50%;
+    width: 40%;
     height: 600px;
     background-color: rgb(40,38,46);
 }
 
 .secondHalf {
-    width: 50%;
+    width: 60%;
     height: 600px;
     /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
 }
@@ -62,9 +62,10 @@ body {
     gap: 100px;
 }
 
-.section__nav__link {
+.section__nav__link a{
     color: rgb(105, 103, 105);
 }
+
 
 #blueCircle {
     height: 20px;
@@ -145,6 +146,7 @@ body {
 }
 
 .form__bttn:hover {
+    cursor: pointer;
     background-color: rgb(29,132,203);
 }
 
