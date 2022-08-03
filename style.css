@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+body {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(84, 83, 83);
+}
+
+/* Navigation Bar */
+
+.section {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    margin: 60px auto;
+    background-color: white;
+}  
+
+.overlay {
+    display: flex;
+}
+
+.firstHalf {
+    width: 50%;
+    height: 600px;
+    background-color: rgb(40,38,46);
+}
+
+.secondHalf {
+    width: 50%;
+    height: 600px;
+    /* background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+}
+
+.secondHalf img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.section__nav {
+    display: flex;
+    padding: 30px 0px 0px 30px;
+    position: relative;
+}
+
+.section__nav__header {
+    margin: 0px 100px 0px 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.dot {
+    color: rgb(0, 149, 255);
+}
+
+.section__nav__links {
+    display: flex;
+    gap: 100px;
+}
+
+.section__nav__link {
+    color: rgb(105, 103, 105);
+}
+
+#blueCircle {
+    height: 20px;
+    position: absolute;
+    top: 27px;
+}
+
+/* Main */
+
+.section__main {
+    margin: 100px 0px 0px 56px;
+}
+
+.section__main__start {
+    text-transform: uppercase;
+    color: rgb(153,149,145);
+}
+
+.section__main__header {
+    color: white;
+    margin: 20px 0px;
+    font-size: 2.5rem;
+}
+
+.section__main__already {
+    color: rgb(106,101,104);
+    margin-bottom: 35px;
+}
+
+#member {
+    color: rgb(0, 149, 255);
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+#firstName, #lastName {
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(50,49,57);
+    border: none;
+}
+
+#firstName {
+    margin-right: 20px;
+}
+
+#firstName, #lastName, #email, #password {
+    color: white;
+    text-indent: 15px;
+}
+
+#firstName:focus, #lastName:focus, #email:focus, #password:focus {
+    outline: 2px solid rgb(58, 127, 246);
+    background-color: rgb(61,58,62);
+}
+
+#email, #password {
+    width: 351px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(50,49,57);
+    border: none;
+    margin-top: 15px;
+}
+
+.form {
+    position: relative;
+}
+
+.form__bttn {
+    color: white;
+    width: 171px;
+    height: 40px;
+    margin: 30px 10px 0px 0px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgb(84,83,87);
+}
+
+.form__bttn:hover {
+    background-color: rgb(29,132,203);
+}
+
+#cardOne {
+    position: absolute;
+    top: 15px;
+    left: 145px;
+    color: rgb(153,143,139);
+}
+
+#cardTwo {
+    position: absolute;
+    top: 15px;
+    left: 335px;
+    color: rgb(153, 143, 139);
+}
+
+#emailIcon {
+    position: absolute;
+    top: 72px;
+    left: 335px;
+    color: rgb(153, 143, 139);
+}
+
+#eye {
+    position: absolute;
+    top: 128px;
+    left: 335px;
+    color: rgb(153, 143, 139)
+}
